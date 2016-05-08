@@ -1,0 +1,23 @@
+doctype html
+block vars
+    - classname = ''
+    - idname=''
+
+
+
+
+
+html(lang="en")
+    include /partials/head
+
+    body(class='#{classname}', id='#{idname}')
+
+        include /partials/icons
+
+        include /partials/logobar
+
+        block main_content
+
+        //include /partials/footer
+
+    include /partials/last-js

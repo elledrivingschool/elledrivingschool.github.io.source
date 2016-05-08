@@ -1,0 +1,26 @@
+extends /layouts/master
+block vars
+    - classname = ''
+block main_content
+    .mid-height-header
+        #page-header.mid-height(style='background-image: url(/assets/images/stock-photo-16247777--teenage-girls-with-car-in-parking-lot.jpg);')
+
+    .content
+        .container
+            .row
+                .col-xs-120.text-center
+                    h1 Recommendations
+                .col-xs-120.col-sm-40
+                    .panel
+                        h3 Ben Heath - 19.04.2016
+                        p "Great instructor, felt comfortable and inspired confidence with every lesson, passed first time and would definitely recommend to learner drivers!"
+                .col-xs-120.col-sm-40
+                    .panel
+                        h3 Bronia Zbrzezniak - 22.04.2016
+                        p "Fantastic instructor, made me feel really confident driving and helped me to pass first time - really recommend!"
+                .col-xs-120.col-sm-40
+                    .panel
+                        h3 Jasmine Moodie - 26.04.2016
+                        p "Always looked forward to my lessons; passed first time!"
+
+    include /partials/four-blocks

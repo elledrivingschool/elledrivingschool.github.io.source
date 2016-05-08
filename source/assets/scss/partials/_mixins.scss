@@ -1,0 +1,19 @@
+@mixin transform ($rules) {
+  -webkit-transform: $rules;
+  -ms-transform: $rules;
+  transform: $rules;
+}
+
+$defaultTransition: all 250ms ease-out;
+
+@mixin transition ($rules) {
+  -webkit-transition: $rules;
+  -ms-transition: $rules;
+  transition: $rules;
+}
+
+@mixin transition-delay ($rules) {
+  -webkit-transition: $rules;
+  -ms-transition: $rules;
+  transition: $rules;
+}

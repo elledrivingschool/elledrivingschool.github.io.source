@@ -1,0 +1,44 @@
+.standard-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: -0.01em;
+  color: $c-black;
+}
+
+h1 {
+  @extend .standard-font;
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  color: $c-lead;
+  text-align: center;
+}
+h2, h3 {
+  @extend .standard-font;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
+  color: $c-lead;
+  text-align: center;
+}
+
+p {
+  @extend .standard-font;
+  line-height: 1.7em;
+  color: $c-standard;
+  margin-bottom: 20px;
+  &.lead {
+    color: $c-lead;
+  }
+}
+
+@media (max-width: 1023px) {
+}
+
+
+@media (max-width: 767px) {
+}

@@ -1,0 +1,39 @@
+extends /layouts/master
+block vars
+    - classname = ''
+block main_content
+    .mid-height-header
+        #page-header.mid-height(style='background-image: url(/assets/images/stock-photo-46740646-young-woman-driving-her-car.jpg);')
+
+    .content
+        .container
+            .row
+                .col-xs-120.text-center
+                    h1 Get In Touch
+                .col-xs-120.col-sm-90.col-sm-offset-15.col-md-40.col-md-offset-40
+                    p.lead.text-center Contact Martine at Elle Driving School:
+                    form
+                        .form-group
+                            //label(for="name") Name
+                            input.form-control#name(type="Name" placeholder="Name")
+                        .form-group.text-left
+                            //label(for="email") Email address
+                            input.form-control#email(type="email" placeholder="Email")
+                        .form-group.text-left
+                            //label(for="phone") Phone
+                            input.form-control#phone(type="phone" placeholder="Phone")
+                        .form-group.text-left
+                            //label(for="subject") Subject
+                            input.form-control#email(type="subject" placeholder="Subject")
+                        .form-group.text-left
+                            //label(for="Message") Message
+                            textarea.form-control#email(type="message" placeholder="Message")
+                        .form-group.text-center
+                            button.btn.btn-default(type="submit") Submit
+                .col-xs-120.col-sm-90.col-sm-offset-15.col-md-60.col-md-offset-30
+                    hr/
+                    h3 01529 488 880 |
+                        a(href='/') broadrickmartine@gmail.com
+
+
+    include /partials/four-blocks

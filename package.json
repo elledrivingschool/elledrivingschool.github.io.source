@@ -1,0 +1,16 @@
+{
+  "name": "devfacto-static-template",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-http-server": "^1.10.0",
+    "grunt-notify": "^0.4.1",
+    "grunt-sass": "^1.1.0",
+    "grunt-sync": "^0.4.0",
+    "node-sass": "^3.4.2"
+  }
+}

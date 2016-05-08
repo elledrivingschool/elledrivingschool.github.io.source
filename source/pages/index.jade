@@ -1,0 +1,20 @@
+extends /layouts/master
+block vars
+    - classname = ''
+block main_content
+    .mid-height-header
+        #page-header.mid-height(style='background-image: url(/assets/images/stock-photo-14328470-driving-a-car.jpg);')
+
+    .content
+        .container
+            .row
+                .col-xs-120.text-center
+                    h1 Welcome to Elle Driving School
+                .col-xs-120.col-sm-90.col-sm-offset-15.col-md-60.col-md-offset-30.col-lg-50.col-lg-offset-35.text-center
+                    p.lead My name is Martine and I am a fully qualified ADI with 25 years experience
+                    p I provide driving instruction in the Sleaford, Grantham and surrounding areas. Feel free to explore my website and to discover what others think about Elle Driving School.
+                    hr/
+                .col-xs-60.col-sm-40.col-sm-offset-40
+                    img.img-responsive(src='/assets/images/dsa-logos.jpg')
+
+    include /partials/four-blocks
