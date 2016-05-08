@@ -2,6 +2,8 @@ doctype html
 block vars
     - classname = ''
     - idname=''
+    - metatitle=''
+    - metadescription=''
 
 html(lang="en")
     head
@@ -13,7 +15,8 @@ html(lang="en")
         script(src='/assets/js/vendor/jquery-2.1.4.min.js')
 
         block title
-            title= "Elle Driving School"
+            title #{metatitle}
+        meta(name='description', content='#{metadescription}')
 
     body(class='#{classname}', id='#{idname}')
 
