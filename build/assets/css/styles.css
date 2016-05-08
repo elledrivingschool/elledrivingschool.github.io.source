@@ -78,6 +78,10 @@ body {
   fill: #fd2e55;
 }
 
+label {
+  margin-top: 10px;
+}
+
 /* = = = HEADER = = = */
 .logobar {
   position: fixed;

@@ -21,22 +21,25 @@ block main_content
                         a(href='/') broadrickmartine@gmail.com
                     hr/
                 .col-xs-120.col-sm-90.col-sm-offset-15.col-md-40.col-md-offset-40
-                    form
+                    form(action='https://formspree.io/mike@mikeparkin.com', method='POST')
                         .form-group
-                            //label(for="name") Name
-                            input.form-control#name(type="Name" placeholder="Name")
+                            label Name
+                            input.form-control#name(type="text", name="name", placeholder="Name", required)
+                            input#next(type="hidden", name='_next', value='//elledrivingschool.com/thanks')
+                            input#emailsubject(type="hidden", name='_subject', value='Contact Enquiry Elle Driving School')
+                            input#realname(type="text", name='_gotcha', style='display:none')
                         .form-group.text-left
-                            //label(for="email") Email address
-                            input.form-control#email(type="email" placeholder="Email")
+                            label Email Address
+                            input.form-control#email(type="email", name="email", placeholder="Email", required)
                         .form-group.text-left
-                            //label(for="phone") Phone
-                            input.form-control#phone(type="phone" placeholder="Phone")
+                            label Phone Number
+                            input.form-control#phone(type="tel", name="Phone Number", placeholder="Phone Number", required)
                         .form-group.text-left
-                            //label(for="subject") Subject
-                            input.form-control#email(type="subject" placeholder="Subject")
+                            label Subject
+                            input.form-control#subject(type="subject", name="Subject", placeholder="Subject")
                         .form-group.text-left
-                            //label(for="Message") Message
-                            textarea.form-control#email(type="message" placeholder="Message")
+                            label Message
+                            textarea.form-control#message(type="message", rows="10", name="Message", placeholder="Message")
                         .form-group.text-center
                             button.btn.btn-default(type="submit") Submit
 
