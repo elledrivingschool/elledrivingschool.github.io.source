@@ -5,7 +5,7 @@ block vars
     - metadescription="Get in touch for driving tuition in Sleaford, Grantham and surrounding areas."
 block main_content
     .mid-height-header
-        #page-header.mid-height(style='background-image: url(/assets/images/stock-photo-46740646-young-woman-driving-her-car.jpg);')
+        #page-header.mid-height(style='background-image: url(/assets/images/elle-driving-school-contact.jpg);')
 
     .content
         .container
@@ -21,12 +21,13 @@ block main_content
                         a(href='/') broadrickmartine@gmail.com
                     hr/
                 .col-xs-120.col-sm-90.col-sm-offset-15.col-md-40.col-md-offset-40
-                    form(action='https://formspree.io/mike@mikeparkin.com', method='POST')
+                    form(action='https://formspree.io/broadrickmartine@gmail.com', method='POST')
                         .form-group
                             label Name
                             input.form-control#name(type="text", name="name", placeholder="Name", required)
                             input#next(type="hidden", name='_next', value='//elledrivingschool.com/thanks')
                             input#emailsubject(type="hidden", name='_subject', value='Contact Enquiry Elle Driving School')
+                            input#cc(type="hidden", name='_cc', value='elledriving@mikeparkin.com')
                             input#realname(type="text", name='_gotcha', style='display:none')
                         .form-group.text-left
                             label Email Address
