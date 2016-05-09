@@ -76,6 +76,17 @@ module.exports = function (grunt) {
                 }]
             }
         },
+        cssmin: {
+            target: {
+                files: [{
+                    expand: true,
+                    cwd: 'source/assets/css',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'source/assets/css',
+                    ext: '.min.css'
+                }]
+            }
+        },
         jade: {
             options: {
                 pretty: true,
@@ -124,5 +135,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jade');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-notify');
 };
