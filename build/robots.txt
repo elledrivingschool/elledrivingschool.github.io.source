@@ -1,0 +1,3 @@
+Sitemap: http://www.elledrivingschoolsleaford.co.uk
+User-agent: *
+Allow: /
