@@ -5,7 +5,7 @@ block vars
     - metadescription="Get in touch for driving tuition in Sleaford, Grantham and surrounding areas."
 block main_content
     .mid-height-header
-        #page-header.mid-height(style='background-image: url(/assets/images/elle-driving-school-contact.jpg);')
+        #page-header.mid-height(class='background-contact')
 
     .content
         .container
@@ -28,7 +28,7 @@ block main_content
                             input#next(type="hidden", name='_next', value='//www.elledrivingschoolsleaford.co.uk/thanks')
                             input#emailsubject(type="hidden", name='_subject', value='Contact Enquiry Elle Driving School')
                             input#cc(type="hidden", name='_cc', value='elledriving@mikeparkin.com')
-                            input#realname(type="text", name='_gotcha', style='display:none')
+                            input#realname(type="text", name='_gotcha', class='hidden')
                         .form-group.text-left
                             label Email Address
                             input.form-control#email(type="email", name="email", placeholder="Email", required)

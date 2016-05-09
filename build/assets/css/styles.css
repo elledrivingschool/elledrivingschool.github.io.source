@@ -82,6 +82,10 @@ label {
   margin-top: 5px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* = = = HEADER = = = */
 .logobar {
   position: fixed;
@@ -529,6 +533,26 @@ a.cta {
   border: 0;
   background: none;
   color: #fd2e55;
+}
+
+.background-area {
+  background-image: url(/assets/images/elle-driving-school-area-map.jpg);
+}
+
+.background-contact {
+  background-image: url(/assets/images/elle-driving-school-contact.jpg);
+}
+
+.background-home {
+  background-image: url(/assets/images/elle-driving-school.jpg);
+}
+
+.background-prices {
+  background-image: url(/assets/images/elle-driving-school-prices.jpg);
+}
+
+.background-recommendations {
+  background-image: url(/assets/images/elle-driving-school-recommendations.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */
