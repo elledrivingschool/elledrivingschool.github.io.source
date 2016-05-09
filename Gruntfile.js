@@ -66,13 +66,6 @@ module.exports = function (grunt) {
             }
         },
         uglify: {
-            options: {
-                mangle: false,
-                compress: {
-                    unused: false,
-                    dead_code: false
-                }
-            },
             dist: {
                 files: [{
                     expand: true,
