@@ -483,3 +483,11 @@ a {
 .background-recommendations{
   background-image: url(/assets/images/elle-driving-school-recommendations.jpg);
 }
+
+.recommendations div:nth-child(3n+1) {
+  clear:both;
+}
+
+.recommendations div .panel{
+  min-height: 175px;
+}
